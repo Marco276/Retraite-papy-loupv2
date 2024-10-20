@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Félicitations Papy Loup !</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Félicitations pour ta retraite, Papy Loup !</h1>
+        <p>Carreleur et Plaquiste exceptionnel, un grand merci pour toutes ces années de travail.</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>À propos de Papy Loup</h2>
+            <p>Découvrez l’histoire de Papy Loup, un artisan passionné par son métier et par son travail dans l'entreprise William Richard.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerie Photos</h2>
+            <input type="file" id="photo-upload" accept="image/*" />
+            <div id="photo-gallery"></div>
+        </section>
+
+        <section id="guestbook">
+            <h2>Livre d'or</h2>
+            <textarea id="message" placeholder="Laissez un message à Papy Loup"></textarea>
+            <button onclick="addMessage()">Envoyer</button>
+            <div id="messages"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site dédié à la retraite de Papy Loup | Fait avec amour par la famille.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
